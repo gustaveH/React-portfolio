@@ -6,7 +6,20 @@ class LandingPage extends React.Component {
   render() {
     return (
       <div>
-        <Navigation />
+        <div className='ui menu navbar'>
+          <a className='active item' href='/#'>
+            About me
+          </a>
+          <a className='item' href='/#'>
+            Skills
+          </a>
+          <a className='item' href='/#'>
+            Portfolio
+          </a>
+          <a className='item' href='/#'>
+            Contact
+          </a>
+        </div>
         <div className='ui LandingPage'>
           <h1 className='landing'>Landing Page!</h1>
           <div className='green-button'>

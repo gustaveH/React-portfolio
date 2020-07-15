@@ -11,6 +11,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,4 +19,12 @@ body {
 }
 .landing {
   color: white;
+}
+.LandingPage h1 {
+  font-size: 50px;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
