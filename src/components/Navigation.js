@@ -3,7 +3,7 @@ import React from 'react';
 class Navigation extends React.Component {
   render() {
     return (
-      <div className='ui menu'>
+      <div className='ui menu navbar'>
         <a className='active item' href='/#'>
           About me
         </a>

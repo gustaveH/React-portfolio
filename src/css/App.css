@@ -28,3 +28,42 @@ body {
   top: 0;
   width: 100%;
 }
+.profilePic {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  padding: 10px;
+}
+.intro {
+  text-align: left;
+  padding-top: 10px;
+}
+.about-me {
+  padding-top: 10px;
+}
+.skills {
+  text-align: center;
+  background-color: whitesmoke;
+}
+.skill-name {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.skill-bar {
+  height: 20px;
+  background: white;
+  border-radius: 8px;
+}
+.skill-per {
+  height: 20px;
+  background-color: teal;
+  border-radius: 8px;
+  width: 50px;
+  position: relative;
+}
+.skill-per::before {
+  content: attr(per);
+  position: absolute;
+}
