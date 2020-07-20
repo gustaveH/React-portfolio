@@ -1,44 +1,34 @@
 import React from 'react';
+import '../css/App.css';
+import SkillBar from 'react-skillbars';
+
+const skillsOne = [
+  { type: 'HTML', level: 85 },
+  { type: 'CSS', level: 80 },
+  { type: 'JavaScript', level: 75 },
+];
+const skillsTwo = [
+  { type: 'React', level: 70 },
+  { type: 'Ruby/Rails', level: 70 },
+  { type: 'SQL', level: 75 },
+];
+const colors = {
+  bar: '#333333',
+  title: {
+    text: '#fff',
+    background: '#ff5c33',
+  },
+};
 
 class Skills extends React.Component {
   render() {
     return (
-      <div className='skills'>
-        <div className='skill'>
-          <div className='skill-name'>HTML</div>
-          <div className='skill-bar'>
-            <div className='skill-per' per='90'></div>
-          </div>
+      <div className='skills ui grid'>
+        <div className='eight wide column'>
+          <SkillBar skills={skillsOne} height={40} colors={colors} />
         </div>
-        <div className='skill'>
-          <div className='skill-name'>CSS3</div>
-          <div className='skill-bar'>
-            <div className='skill-per' per='90'></div>
-          </div>
-        </div>
-        <div className='skill'>
-          <div className='skill-name'>Javascript</div>
-          <div className='skill-bar'>
-            <div className='skill-per' per='90'></div>
-          </div>
-        </div>
-        <div className='skill'>
-          <div className='skill-name'>React</div>
-          <div className='skill-bar'>
-            <div className='skill-per' per='90'></div>
-          </div>
-        </div>
-        <div className='skill'>
-          <div className='skill-name'>Ruby on Rails</div>
-          <div className='skill-bar'>
-            <div className='skill-per' per='90'></div>
-          </div>
-        </div>
-        <div className='skill'>
-          <div className='skill-name'>SQL</div>
-          <div className='skill-bar'>
-            <div className='skill-per' per='90'></div>
-          </div>
+        <div className='eight wide column'>
+          <SkillBar skills={skillsTwo} height={40} colors={colors} />
         </div>
       </div>
     );

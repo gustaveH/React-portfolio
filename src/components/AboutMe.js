@@ -5,7 +5,7 @@ import React from 'react';
 class AboutMe extends React.Component {
   render() {
     return (
-      <div className='ui grid'>
+      <div className='aboutMe ui grid'>
         <div className='six wide column'>
           <img className='profilePic' alt='/#' src={image}></img>
         </div>
