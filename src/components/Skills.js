@@ -23,15 +23,15 @@ const colors = {
 class Skills extends React.Component {
   render() {
     return (
-      <div className='ui grid'>
-        <div className='sectionLinks'>
-          <h1>Skills</h1>
-        </div>
-        <div className='eight wide column'>
-          <SkillBar skills={skillsOne} height={40} colors={colors} />
-        </div>
-        <div className='eight wide column'>
-          <SkillBar skills={skillsTwo} height={40} colors={colors} />
+      <div className='container'>
+        <h1 className='sections'>Skills</h1>
+        <div className='ui grid'>
+          <div className='eight wide column'>
+            <SkillBar skills={skillsOne} height={40} colors={colors} />
+          </div>
+          <div className='eight wide column'>
+            <SkillBar skills={skillsTwo} height={40} colors={colors} />
+          </div>
         </div>
       </div>
     );

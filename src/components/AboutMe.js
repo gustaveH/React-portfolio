@@ -1,28 +1,30 @@
-import image from '../images/profile.jpg';
 import React from 'react';
 
 class AboutMe extends React.Component {
   render() {
     return (
-      <div className='ui grid'>
-        <div className='six wide column'>
-          <img className='profilePic' alt='/#' src={image}></img>
-        </div>
-        <div className='ten wide column'>
-          <div className='about-me'>
-            <h1>Hello,</h1>
-            <p className='intro'>
-              My name is Gustave Habimana and I am a Software Engineer with a
-              passion for creating friendly and responsive applications. I have
-              been in the tech industry for 2 years now. I love to learn new
-              technologies while continuing to perfect the current best
-              practices. My current languages are JavaScript, ReactJS, Ruby on
-              Rails, SQL, Html , CSS3 but I am always up for the challenge of
-              learning more. I am looking to collaborate with others on new
-              projects in order expand my skill set or help someone else reach
-              their dreams through my passion for coding.
+      <div className='container'>
+        <h1 className='sections'>About me</h1>
+        <div class='ui vertically padded two column grid'>
+          <div class='column'>
+            <p>
+              Sit ad tempor cillum et occaecat ex non nisi aliqua duis aute
+              laborum. Exercitation adipisicing exercitation ex ea pariatur ad.
+              Enim nulla est amet esse aliquip minim nisi fugiat nostrud
+              pariatur. Nulla dolore ad voluptate commodo veniam nulla aliquip
+              dolor culpa aute dolor. Veniam ipsum commodo duis est cillum. Aute
+              et commodo dolore est Lorem labore incididunt duis laboris
+              occaecat minim occaecat.
             </p>
-            <button className='ui teal button'>Resume</button>
+          </div>
+          <div class='column'>
+            <p>
+              Aliqua reprehenderit est commodo nisi in enim elit exercitation
+              veniam. Exercitation occaecat commodo amet eu quis elit quis enim
+              velit fugiat nostrud et mollit deserunt. Ipsum id dolor culpa quis
+              duis ex sint. Lorem in voluptate mollit deserunt labore qui ea in
+              aliqua adipisicing nisi.
+            </p>
           </div>
         </div>
       </div>

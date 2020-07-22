@@ -50,7 +50,10 @@ body {
   align-items: center;
 }
 
-/* sectionLinks */
-.sectionLinks {
-  margin-bottom: 10px;
+/* sections*/
+.container h1.sections {
+  text-transform: uppercase;
+  text-decoration: underline;
 }
+
+/* ProfilePicture */
