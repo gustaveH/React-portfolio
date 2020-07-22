@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/App.css';
+
 import SkillBar from 'react-skillbars';
 
 const skillsOne = [
@@ -23,7 +23,10 @@ const colors = {
 class Skills extends React.Component {
   render() {
     return (
-      <div className='skills ui grid'>
+      <div className='ui grid'>
+        <div className='sectionLinks'>
+          <h1>Skills</h1>
+        </div>
         <div className='eight wide column'>
           <SkillBar skills={skillsOne} height={40} colors={colors} />
         </div>

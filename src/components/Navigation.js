@@ -4,7 +4,7 @@ class Navigation extends React.Component {
   render() {
     return (
       <div className='ui menu navbar'>
-        <a className='active item' href='/#'>
+        <a className='active left floated item' href='/#'>
           About me
         </a>
         <a className='item' href='/#'>
@@ -15,6 +15,9 @@ class Navigation extends React.Component {
         </a>
         <a className='item' href='/#'>
           Contact
+        </a>
+        <a className='item' href='/#'>
+          Writing
         </a>
       </div>
     );

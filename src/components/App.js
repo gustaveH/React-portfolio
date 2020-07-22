@@ -1,4 +1,5 @@
-import '../css/App.css';
+import 'semantic-ui-css/semantic.min.css';
+import '../App.css';
 import React from 'react';
 import Navigation from './Navigation';
 import AboutMe from './AboutMe';
